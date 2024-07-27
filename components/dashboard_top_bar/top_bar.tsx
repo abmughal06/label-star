@@ -1,10 +1,10 @@
 import icons from "@/lib/utils/icons";
-import Image from "next/image";
+import { FaCircleUser } from "react-icons/fa6";
 
 export default function DashboardTopBar(){
     return(
-        <section className="p-2 px-4 flex flex-row justify-end items-center">
-            <Image src={icons.profileIcon} width={32} height={32} alt="Profile Icon"/>
+        <section className="m-4 flex flex-row justify-end items-center text-primary text-3xl">
+            <FaCircleUser />
         </section>
     );
 }
