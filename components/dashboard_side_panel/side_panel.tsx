@@ -55,7 +55,12 @@ export default function DashboardSidePanel() {
             LABEL STAR
           </h2>
         </Link>
-        <h3 className="text-yellow-300 text-md font-medium">{`Welcome ${userName? userName: "..."}`}</h3>
+        <h3 className=" text-md font-medium">
+          Welcome{" "}
+          <span className="text-yellow-300">
+            {userName ? userName : "..."}
+          </span>{" "}
+        </h3>
       </div>
       <div className="h-[0.5px] bg-gray-300 w-full mt-8 mb-4"></div>
       {menuItems.map((e) => (

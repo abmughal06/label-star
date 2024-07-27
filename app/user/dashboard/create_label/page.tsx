@@ -10,7 +10,7 @@ export default function CreateLabel() {
   );
   return (
     <section className="flex flex-col gap-6">
-      <h4 className="text-2xl font-medium">Create Single Label</h4>
+      {/* <h4 className="text-2xl font-medium">Create Single Label</h4> */}
       <div className="grid grid-cols-2 gap-6">
         <div>
           <LocalLabel name="TYPE" />
