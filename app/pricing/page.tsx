@@ -1,10 +1,10 @@
 import Header from "@/components/header/header";
 
-export default function Home() {
+export default function Pricing() {
   return (
-    <main className="">
+    <section>
       <Header />
-      HOME
-    </main>
+      Pricing
+    </section>
   );
 }
