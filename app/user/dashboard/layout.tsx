@@ -43,7 +43,7 @@ export default function Dashboard({ children }: any) {
       path: "/user/dashboard",
     },
     {
-      title: "Create Label",
+      title: "Create Single Label",
       path: "/user/dashboard/create_label",
     },
     {
@@ -55,7 +55,7 @@ export default function Dashboard({ children }: any) {
       path: "/user/dashboard/recent_label",
     },
     {
-      title: "Plans",
+      title: "Subscription Plans",
       path: "/user/dashboard/plans",
     },
   ];
